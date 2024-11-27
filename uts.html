@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi Kenangan</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdn.prinsh.com/NathanPrinsley-textstyle/nprinsh-stext.css"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#home" class="logo"><img src="logo.png" alt="" /></a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <!-- dropdown -->
+        <li>
+          <a href="#">Product</a>
+          <ul class="dropdown">
+            <li><a href="#new">New</a></li>
+            <li><a href="#coffee">Coffee</a></li>
+          </ul>
+        </li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#komunitas">Community</a></li>
+      </ul>
+    </header>
+
+    <!-- Home Section-->
+    <section class="home" id="home">
+      <div class="home-text">
+        <span>WELCOME TO KOPI KENANGAN</span>
+        <h1>
+          <q>Coffee memories,<br />taste every memory</q>
+        </h1>
+        <h2>Temukan nikmatnya sekarang!</h2>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.kopikenangan&pcampaignid=web_share"
+          class="btn"
+          >Download</a>
+      </div>
+      <div class="home-image">
+        <img style="border-radius: 17%" src="kopi.jpg" alt="home" />
+      </div>
+    </section>
+    <!-- Home end -->
+    <!-- Profil section -->
+    <section class="profil" id="profil">
+      <div class="content">
+        <h1>KOPI<span>KENANGAN</span></h1>
+        <div class="profil-container">
+          <div class="profil-img">
+            <img src="profil.jpg">
+         </div>
+         <div class="profil-text">
+           <h2>Kenapa Kopi Kenangan?</h2>
+           <p><q>At Kopi Kenangan, our dream is to serve high quality coffee, made with the freshest local ingredients to customers across Indonesia – and the rest of the world.</q><br> — Edward Tirtanata, CEO and Founder</p>
+           <p>Kopi Kenangan hadir untuk menjembatani kesenjangan antara kopi berkualitas tinggi dengan harga yang terjangkau. Dengan misi membawa pengalaman menikmati kopi kelas dunia untuk semua kalangan, kami percaya bahwa setiap cangkir kopi memiliki cerita dan kenangan unik yang bisa dibagikan.</p>
+           <a href="artikel3.html" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Profil end -->
+    <!-- Galerry Section -->
+    <section class="gallery" id="gallery">
+      <div class="content">
+        <h1>Gallery<span>Us</span></h1>
+      </div>
+      <div class="responsive">
+        <div class="album">
+          <a href="artikel.html" target="_blank">
+            <img src="20240827_135440.jpg.webp" alt="Cabang di luar negeri" width="100%" />
+          </a>
+          <div class="desc">
+            Momen penting Kopi Kenangan akan gunakan kopi Indonesia untuk cabang
+            di luar negeri. <br> Kopi Kenangan sudah memiliki sekitar 1.000 toko.
+          </div>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="album">
+          <a href="artikel2.html" target="_blank">
+            <img src="new.webp" alt="Kolaborasi" width="100%"  />
+          </a>
+          <div class="desc">
+            BARU! Kopi Kenangan menghadirkan kolaborasi bersama One
+            Piece dan Tahilalats.
+          </div>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="album">
+          <a href="artikel3.html" target="_blank">
+            <img src="kisah.webp" alt="Kisah sukses" width="100%" />
+          </a>
+          <div class="desc">
+            Kisah sukses pemilik Kopi Kenangan, Edward
+            Tirtanata dan sahabatnya Prananto. <br> Yang dimulai sebagai kedai kopi
+            lokal di Indonesia pada 2017, kini menjadi merek kopi
+            internasional
+        </div>
+      </div>
+    </section>
+
+    <!-- Produk Section -->
+     <section>
+       <div class="new" id="new">
+         <h1>NEW</h1>
+         <div class="slideshow-container">
+          <div class="mySlides1">
+            <img src="tumbler.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides1">
+            <img src="summer.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides1">
+            <img src="coba.jpg" style="width:100%">
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+       </div>
+      <!-- Coffee -->
+       <div class="coffee" id="coffee">
+        <h1>COFFEE</h1>
+        <div class="slideshow-container">
+          <div class="mySlides2">
+            <img src="kopi2.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides2">
+            <img src="kopi5.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides2">
+            <img src="kopi6.jpg" style="width:100%">
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+       </div>
+    
+</section>
+      <!-- produk end -->
+    <!-- Shop Section -->
+    <section class="shop" id="shop">
+      <div class="heading">
+        <h1>SHOP<span>NOW</span></h1>
+        <p>Coffee</p>
+      </div>
+      <div class="shop-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="amerikano.jpeg" />
+          </div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p id="americano">Americano</p>
+          <a class="btn" type="button" onclick='document.getElementById("americano").innerHTML="Rp. 15.000"'>Order Now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="enak.jpeg" />
+          </div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p id="kopken">Kopi Kenangan Mantan</p>
+          <a class="btn" type="button" onclick='document.getElementById("kopken").innerHTML="Rp. 19.000"'>Order Now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="fix.jpeg" />
+          </div>
+          <div class="stars">
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star-half-o"></span>
+          </div>
+          <p id="capcin">Cappuccino</p>
+          <a class="btn" type="button" onclick='document.getElementById("capcin").innerHTML="Rp. 22.000"'>Order Now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="vanilla latte.jpeg" />
+          </div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p id="vanilla">Vanilla Latte</p>
+          <a class="btn" type="button" onclick='document.getElementById("vanilla").innerHTML="Rp. 26.000"'>Order Now</a>
+        </div>
+      </div>
+      <div class="heading">
+        <p>Non-Coffee</p>
+      </div>
+      <div class="shop-container">
+        <div class="box">
+          <div class="box-img">
+            <img src="milo.jpeg" />
+          </div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p id="milo">Milo Dinosaurus</p>
+          <a  class="btn" type="button" onclick='document.getElementById("milo").innerHTML="Rp. 15.000"'>Order Now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="oreo.jpeg" />
+          </div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p id="oreo">Oreo Shake</p>
+          <a class="btn" type="button" onclick='document.getElementById("oreo").innerHTML="Rp. 19.000"'>Order Now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="raspberry.jpeg" />
+          </div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p id="raspberry">Raspberry Hibiscus</p>
+          <a class="btn" type="button" onclick='document.getElementById("raspberry").innerHTML="Rp. 22.000"'>Order Now</a>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img src="matcha.jpeg" />
+          </div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p id="matcha">Matcha Latte</p>
+          <a  class="btn" type="button" onclick='document.getElementById("matcha").innerHTML="Rp. 26.000"'>Order Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- Shop end -->
+
+    <!-- Form start -->
+    <section id="komunitas" class="contact">
+      <h1>Form<span>Community</span></h1>
+      <p>Daftar untuk Nikmati Penawaran Spesial Kopi Favoritmu!</p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15861.33357237996!2d106.80603909637207!3d-6.350864246446811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skopi%20kenangan!5e0!3m2!1sid!2sid!4v1732445537063!5m2!1sid!2sid"
+          class="map"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <div class="input-group">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-person"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"
+              />
+            </svg>
+            <input class="input-field" type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-envelope-at"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"
+              />
+              <path
+                d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"
+              />
+            </svg>
+            <input class="input-field" type="text" placeholder="email" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Form end -->
+    <!-- Contact & footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h1>Contact<span>Us</span></h1>
+          <p>Curhat yuk! <br><i class="fa fa-whatsapp"></i> 081-7075-6865</p>
+        </div>
+        <div class="footer-content">
+          <h1>Quick<span>Links</span></h1>
+          <ul class="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#community">Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h1>Follow<span>Us</span></h1>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.instagram.com/kopikenangan.id/"
+              ><i class="fa fa-instagram"></i></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCvvwP_UlKBfCE2EKB6nsJ_g/featured"
+              ><i class="fa fa-youtube-play"></i></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/Kopikenangan_ID?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              ><i class="fa fa-twitter"></i></a
+            >
+          </li>
+        </ul>
+        </div>
+      </div>
+      <div class="btn-bar">
+        <p>Created by<a href=""> aisyael</a>.|&copy;2024</p>
+      </div>
+    </footer>
+
+    <!-- Link Custom JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
